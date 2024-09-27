@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <title>LOTUS 🪷</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icones/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icones/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+
+    
+    
+    <header class="container">
+        <nav>
+            <ul>
+            </ul>
+            <ul>
+                <li><h1>L<img src="icones/lotus.svg" alt="🪷">TUS</h1></li>
+            </ul>
+            <ul></ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="grille"></div>
+    </main>
+
+    <div style="display: none">
+        <audio preload src="sons/lettre-non-trouve.wav" id="sonLettreNonTrouvee"></audio>
+        <audio preload src="sons/lettre-mal-place.wav" id="sonLettreMalPlacee"></audio>
+        <audio preload src="sons/lettre-bien-place.wav" id="sonLettreBienPlacee"></audio>
+        <audio preload src="sons/mot-trouve.mp3" id="sonMotTrouve"></audio>
+        <audio preload src="sons/perdu.mp3" id="sonPerdu"></audio>
+    </div>
+
+    <script src="motsATrouver.js" charset="UTF-8"></script>
+    <script src="motsAutorises.js" charset="UTF-8"></script>
+    <script src="script.js" charset="UTF-8"></script>
+    <script>navigator?.serviceWorker.register('service-worker.js')</script>
+</body>
+</html>

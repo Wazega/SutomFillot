@@ -1,0 +1,76 @@
+nav ul {
+  align-items: start;
+}
+
+nav button svg {
+  display: block;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.1em;
+}
+
+h1, h2 {
+  text-align: center;
+  text-shadow: 0.08em 0.06em #8888;
+}
+
+h1 img,
+h2 img {
+  background-color: currentColor;
+  border-radius: 100%;
+  background-origin: content-box;
+  padding: 0;
+  height: 0.75em;
+  vertical-align: baseline;
+  filter: drop-shadow(0.08em 0.06em #8888);
+}
+
+label.option {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  width: 100%;;
+}
+
+label.option * {
+  width: auto;
+}
+
+[type="checkbox"][role="switch"] {
+  margin: 0;
+}
+
+#grille {
+  width: fit-content;
+  margin: auto;
+}
+
+input.lettre {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.15em;
+  text-align: center;
+  border-radius: 0.3rem;
+  vertical-align: text-top;
+}
+
+input.bien-placee {
+  background-color: #D93526D0;
+}
+
+input.mal-placee {
+  background-image: radial-gradient(ellipse at center, #FFBF00A0 70%, transparent 70%);
+  background-repeat: no-repeat;
+}
+
+input.lettre:disabled {
+  opacity: 100%;
+}
