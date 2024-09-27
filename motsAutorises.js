@@ -1,5 +1,8 @@
 const motsAutorises = [
 "fouzzy",
+"footzy",
+"foutzy",
+"foozzy",
 "abacas",
 "abacule",
 "abacules",

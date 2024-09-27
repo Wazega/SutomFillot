@@ -45,16 +45,17 @@ label.option * {
   margin: 0;
 }
 
-#infos {
-  position: fixed; /* ou absolute, selon ce que tu préfères */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; /* centre le texte à l'intérieur du span */
-  background-color: #f0f0f0; /* couleur de fond optionnelle */
-  padding: 10px; /* pour un peu de marge autour du texte */
-  border-radius: 5px; /* coins arrondis optionnels */
+.container {
+  text-align: center; /* Centre horizontalement l'élément à l'intérieur du conteneur */
 }
+
+#infos {
+  display: inline-block; /* Assure que le span reste à la largeur de son contenu */
+  background-color: #f0f0f0; /* Optionnel : ajoute un fond */
+  padding: 10px; /* Optionnel : ajoute du padding pour un meilleur look */
+  border-radius: 5px; /* Optionnel : coins arrondis */
+}
+
 
 
 #grille {
