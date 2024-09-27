@@ -6,6 +6,6 @@ const motsATrouver = [
     null,
     null,
     [
-        "footzy",
+        "fouzzy",
     ]
 ]
